@@ -12,6 +12,9 @@ const ROUTE_HOME = "/";
 const ROUTE_ABOUT = "/about";
 const ROUTE_CONTACT = "/contact";
 const ROUTE_SHOPS = "/shops";
+const ROUTE_CARD = "/card";
+const ROUTE_CHECKOUT = "/checkout";
+
 
 const routePaths = {
     // Redirect Paths
@@ -27,7 +30,9 @@ const routePaths = {
     ROUTE_HOME,
     ROUTE_ABOUT,
     ROUTE_CONTACT,
-    ROUTE_SHOPS
+    ROUTE_SHOPS,
+    ROUTE_CARD,
+    ROUTE_CHECKOUT
 }
 
 export default routePaths;
