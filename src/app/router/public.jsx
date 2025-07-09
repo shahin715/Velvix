@@ -21,6 +21,18 @@ const publicRoutes = {
                 Component: (await import('../pages/shops/Details')).default,
             }),
         },
+        {
+            path:routePaths.ROUTE_CARD,
+            lazy: async () => ({
+                Component: (await import('../pages/card')).default,
+            }),
+        },
+         {
+            path:routePaths.ROUTE_CHECKOUT,
+            lazy: async () => ({
+                Component: (await import('../pages/checkout')).default,
+            }),
+        },
     ],
 };
 
