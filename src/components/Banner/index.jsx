@@ -31,7 +31,7 @@ function Banner() {
 
   return (
      <MarginX10>
-   <div style={{ marginTop: "40px", width: "100%" }}>
+   <div style={{ marginTop: "40px", width: "100%" }} className="container-box">
       <div className="relative w-full h-[56.25vw] max-h-[70vh] mx-auto bg-black overflow-hidden">
         <div
           className="flex transition-transform duration-700 ease-in-out h-full"

@@ -29,7 +29,7 @@ export default function ProductGrid({
   return (
     <MarginX10>
       <div className="bg-gray-50 px-3 sm:px-6 py-6">
-        <div className="max-w-7xl mx-auto">
+        <div className="container-box">
           <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6 sm:mb-8">
             {heading}
           </h2>
