@@ -9,8 +9,8 @@ export default function Component() {
           <div style={{  marginTop: "60px",  }}  className="space-y-6">
             <h3 className="text-white font-semibold text-2xl tracking-wider uppercase">Support</h3>
 
-            <div style={{  marginTop: "10px",  }}  className="flex items-center space-x-3 p-3 border border-gray-700 rounded-lg">
-              <Phone className="w-5 h-5 text-orange-500" />
+            <div style={{  marginTop: "10px",  }}  className="flex items-center space-x-3 p-3  ">
+              
               <div>
                 <div className="text-xs text-gray-400">9 AM - 8 PM</div>
                 <div className="text-orange-500 font-semibold">16793</div>
@@ -18,7 +18,7 @@ export default function Component() {
             </div>
 
             <div className="flex items-center space-x-3">
-              <MapPin className="w-5 h-5 text-orange-500" />
+              
               <div>
                 <div className="text-xs text-gray-400">Store Locator</div>
                 <a href="#" className="text-orange-500 font-semibold hover:text-orange-400">
